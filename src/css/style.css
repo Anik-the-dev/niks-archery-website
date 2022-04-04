@@ -118,6 +118,10 @@ img {
     grid-template-columns: 75% 25%;
 }
 
+.two-columns-grid{
+    grid-template-columns: repeat(2, 1fr);
+}
+
 
 .text-center {
     text-align: center;
