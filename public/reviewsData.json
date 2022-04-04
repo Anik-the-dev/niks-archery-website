@@ -1,0 +1,41 @@
+[
+    {
+      "id": "1",
+      "name": "Vandalizm",
+      "review":"First off I'd like to say these are not toys! You can absolutely kill someone or animals with this set. These bows are the real deal. Super sturdy and well made. The directions don't say much about the day to day use of the bow. ",
+      "rating":"5.0"
+    },
+
+    {
+        "id": "2",
+        "name": "Bear Brave",
+        "review":"I purchased this bow as my 9 year old daughter is interested in archery. The specs indicate the ability to modify the draw length but this is not true; YOU CAN NOT MODIFY THE DRAW LENGTH.  ",
+        "rating":"2.5"
+      },
+      {
+        "id": "3",
+        "name": "Judy G",
+        "review":"It was a gift for a 12 year old boy and he LOVED it. He practices everyday, took pictures of himself with it to show his Grandpa and wants to 'get really good'. Best part is it got him away from his video games on a daily basis",
+        "rating":"5.0"
+      },
+      {
+        "id": "4",
+        "name": "SaraK",
+        "review":"This bow is okay, for a young beginner. My son is 11 and this was too small for him. I realize that isn't the bow company's fault, but the first time my son tried using this bow, one of the arrow tips broke off. Before you order, make sure you have your child's draw measured by a professional.",
+        "rating":"4.5"
+      },
+      {
+        "id": "5",
+        "name": "Mike Someguy",
+        "review":"I  bought this for $43 at the end of July, 2020. This bow is less expensive than most of the youth bows, with good reason. There is really very little adjustment. I got this for my nine year old niece, she is strong enough to pull the string back to it's maximum stretch but it is way too short,",
+        "rating":"1.0"
+      },
+      {
+        "id": "6",
+        "name": "Lenora Jones",
+        "review":"my 7 year old daughter loves this bow.Great beginner bow.No adjust ability for draw length Adjust ability is only for draw weight.This by every meas is a beginner bow to see if your child is interested in archery without breaking the bank. If your seeking a bow for them to grow with this is not it.",
+        "rating":"5.0"
+      }
+      
+
+]
