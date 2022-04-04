@@ -143,39 +143,51 @@ img {
     margin: 4rem 0;
 }
 
-.mb-50{
+.mb-50 {
     margin-bottom: 50px;
 }
 
-.mt-50{
+.mt-50 {
     margin-top: 50px;
 }
 
 
 .lead {
     font-size: 20px;
-  }
-  
-  .sm {
+}
+
+.sm {
     font-size: 1rem;
-  }
-  
-  .md {
+}
+
+.md {
     font-size: 2rem;
-  }
-  
-  .lg {
+}
+
+.lg {
     font-size: 3rem;
-  }
-  
-  .xl {
+}
+
+.xl {
     font-size: 4rem;
-  }
+}
 
-  .w-100{
-      width: 100%;
-  }
+.w-100 {
+    width: 100%;
+}
 
-  .p-2{
-      padding: 20px 40px;
-  }
+.p-2 {
+    padding: 20px 40px;
+}
+
+/* paragraph */
+p {
+    font-weight: 600;
+    font-size: 1rem;
+
+}
+
+.btn p{
+    font-weight: 500;
+    font-size: 1.3rem;
+}
