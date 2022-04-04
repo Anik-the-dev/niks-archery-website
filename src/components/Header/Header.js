@@ -1,21 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { MenuIcon } from '@heroicons/react/solid'
+import { MenuIcon, XIcon } from '@heroicons/react/solid'
 
 
 
 const Header = () => {
+    const [mobileMenu, setMobileMenu] = useState(false)
     return (
         <div className='project-body'>
+            <div onClick={() => setMobileMenu(!mobileMenu)} className='hamburger-menu'>
+                {mobileMenu ? <XIcon></XIcon> : <MenuIcon></MenuIcon>}
+            </div>
             <div className='project-container'>
-                <div className='hamburger-menu'>
-                    <MenuIcon></MenuIcon>
-                </div>
+
                 <div className='flex'>
                     <div className='project-logo'>
                         <h1>niksrchery.</h1>
                     </div>
-                    <nav className='navbar'>
+                    <nav className={`navbar ${mobileMenu? 'top-50' : 'topMinus-120'}`}>
                         <Link to='/'>Home</Link>
                         <Link to='/reviews'>Reviews</Link>
                         <Link to='/dashboard'>Dashboard</Link>

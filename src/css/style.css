@@ -208,4 +208,32 @@ p {
         width: 40px;
         height: 40px;
     }
+
+    .project-container{
+        margin-top: 5px;
+    }
+
+    .project-logo{
+        
+        margin-top: 0;
+        text-align: center;
+        display: none;
+        
+       
+    }
+
+    .flex{
+        display: block;
+    }
+
+    .top-50{
+        margin-top: 0px;
+    }
+    .topMinus-120{
+        margin-top: -190px;
+    }
+
+    .navbar a{
+        display: block;
+    }
 }
