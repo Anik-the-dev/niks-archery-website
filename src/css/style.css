@@ -118,7 +118,7 @@ img {
     grid-template-columns: 75% 25%;
 }
 
-.two-columns-grid{
+.two-columns-grid {
     grid-template-columns: repeat(2, 1fr);
 }
 
@@ -191,7 +191,21 @@ p {
 
 }
 
-.btn p{
+.btn p {
     font-weight: 500;
     font-size: 1.3rem;
+}
+
+.hamburger-menu{
+    display: none;
+}
+
+
+/* responsive */
+@media only screen and (max-width: 700px) {
+    .hamburger-menu {
+        display: block;
+        width: 40px;
+        height: 40px;
+    }
 }
