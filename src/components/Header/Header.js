@@ -22,7 +22,6 @@ const Header = () => {
                         <Link to='/reviews'>Reviews</Link>
                         <Link to='/dashboard'>Dashboard</Link>
                         <Link to='/blog'>Blog</Link>
-                        <Link to='/about'>About</Link>
                     </nav>
 
                 </div>

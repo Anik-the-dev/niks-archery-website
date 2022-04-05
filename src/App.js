@@ -3,7 +3,6 @@ import './css/style.css'
 import './App.css';
 import Header from './components/Header/Header';
 import Home from './components/Home';
-import About from './components/About';
 import Dashboard from './components/Dashboard';
 import Blog from './components/Blog';
 import Reviews from './components/Reviews';
@@ -22,7 +21,6 @@ function App() {
         <Route path='/reviews' element={<Reviews/>}></Route>
         <Route path='/dashboard' element={<Dashboard/>}></Route>
         <Route path='/blog' element={<Blog/>}></Route>
-        <Route path='/about' element={<About/>}></Route>
         <Route path='*' element={<NotFound/>}></Route>
       </Routes>
     </div>

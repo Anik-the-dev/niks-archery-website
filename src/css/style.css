@@ -82,9 +82,9 @@ img {
     box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.2);
     padding: 30px 20px;
     margin: 10px;
-  }
+}
 
-.notFound{
+.notFound {
     text-align: center;
     height: 570px;
     padding: 180px 0;
@@ -92,11 +92,12 @@ img {
     color: #fff;
 }
 
-.notFound h1{
+.notFound h1 {
     font-size: 5rem;
     font-weight: 900;
 }
-.notFound p{
+
+.notFound p {
     font-size: 2rem;
 }
 
@@ -116,7 +117,7 @@ img {
 /* display component stylesheet */
 
 .display-scale {
-    
+
     overflow: visible;
     margin-top: 50px;
 }
@@ -181,7 +182,7 @@ h1 {
     margin: 4rem 0;
 }
 
-.m-1{
+.m-1 {
     margin: 10px;
 }
 
@@ -234,7 +235,7 @@ p {
     font-size: 1.3rem;
 }
 
-.hamburger-menu{
+.hamburger-menu {
     display: none;
 }
 
@@ -247,48 +248,50 @@ p {
         height: 40px;
     }
 
-    .project-container{
+    .project-container {
         margin-top: 5px;
     }
 
-    .project-logo{
-        
+    .project-logo {
+
         margin-top: 0;
         text-align: center;
         display: none;
-        
-       
+
+
     }
 
-    .flex{
+    .flex {
         display: block;
     }
 
-    .top-50{
+    .top-50 {
         margin-top: 0px;
     }
-    .topMinus-120{
+
+    .topMinus-120 {
         margin-top: -190px;
     }
 
-    .navbar a{
+    .navbar a {
         display: block;
     }
 
-    .md-flex{
+    .md-flex {
         display: flex;
         flex-wrap: wrap;
-    
-        
+
+
     }
 
-    .md-flex-reverse{
+    .md-flex-reverse {
         display: flex;
         flex-wrap: wrap-reverse;
-        
+
     }
 
-    .md-font, h1 {
+    .md-font,
+    h1 {
         font-size: 2rem;
     }
 
@@ -299,11 +302,27 @@ p {
         padding: 20px;
         box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
 
-    
+
     }
 
-    .chart-margin{
-       display: none;
-     
+    .chart-margin {
+        display: none;
+
+    }
+
+    .notFound {
+
+        height: 100%;
+
+
+    }
+
+    .notFound h1 {
+        font-size: 3rem;
+    }
+
+
+    .notFound p {
+        font-size: 1.5rem;
     }
 }
