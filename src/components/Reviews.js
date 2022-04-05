@@ -8,8 +8,8 @@ const Reviews = () => {
 
     return (
         <div className='project-body'>
-            <h1 className='text-center my-4 lg'>Our Delighted Users Review</h1>
-            <div className='grid  project-container'>
+            <h1 className='text-center my-4 lg md-font'>Our Delighted Users Review</h1>
+            <div className='grid  project-container md-flex'>
 
                 {
                     reviews.map(review => <Card
