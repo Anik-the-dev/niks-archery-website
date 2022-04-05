@@ -7,8 +7,8 @@ const HomeReview = () => {
     const [reviews,] = useReviews()
     return (
         <div>
-            <h1 className='text-center my-5 lg'>Our Top 3 User's Reviews</h1>
-            <div className='grid'>
+            <h1 className='text-center my-5 lg  md-font'>Our Top 3 User's Reviews</h1>
+            <div className='grid  md-flex'>
             {
                 reviews.slice(0,3).map(review => <Card
                     key={review.id} singleReview={review}

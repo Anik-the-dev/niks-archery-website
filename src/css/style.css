@@ -111,7 +111,7 @@ img {
     margin-bottom: 20px;
 }
 
-.display-title h1 {
+h1 {
     font-weight: 700;
     font-size: 3rem;
 
@@ -254,9 +254,21 @@ p {
 
     .md-flex{
         display: flex;
+        flex-wrap: wrap;
+    
+        
+    }
+
+    .md-flex-reverse{
+        display: flex;
         flex-wrap: wrap-reverse;
         
     }
+
+    .md-font, h1 {
+        font-size: 2rem;
+    }
+
 
     .display-scale img {
         width: 60%;
