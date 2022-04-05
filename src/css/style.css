@@ -278,4 +278,9 @@ p {
 
     
     }
+
+    .chart-margin{
+       display: none;
+     
+    }
 }

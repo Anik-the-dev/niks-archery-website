@@ -1,5 +1,5 @@
-import React, { PureComponent, useEffect, useState } from 'react';
-import { ComposedChart,BarChart, Bar, Cell, AreaChart, Area, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Scatter, } from 'recharts';
+import React, {useEffect, useState } from 'react';
+import { ResponsiveContainer,ComposedChart,BarChart, Bar, AreaChart, Area, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Scatter, } from 'recharts';
 
 
 
@@ -66,6 +66,7 @@ const Dashboard = () => {
 
     // Bar Chart..................
     const renderBarChart = (
+        
         <BarChart
         width={500}
         height={400}
@@ -115,20 +116,22 @@ const Dashboard = () => {
 
     return (
         <div className='project-body  project-container'>
-            <h1 className='text-center lg mb-50'>niksrchery Sells Revenue</h1>
-            <div className='grid two-columns-grid'>
-                <div>
+            <h1 className='text-center lg mb-50  md-font'>niksrchery Sells Revenue</h1>
+            <div className='grid two-columns-grid md-flex'>
+
+                <ResponsiveContainer width="100%" height="100%">
+                    {renderAreaChart}
+                </ResponsiveContainer>
+                <div className='chart-margin'>
                     {renderLineChart}
                 </div>
-                <div>
-                    {renderAreaChart}
-                </div>
-                <div>
+                <ResponsiveContainer width="100%" height="100%">
+                    {renderComposedChart}
+                </ResponsiveContainer>
+                <div className='chart-margin'>
                     {renderBarChart}
                 </div>
-                <div>
-                    {renderComposedChart}
-                </div>
+
 
             </div>
         </div>

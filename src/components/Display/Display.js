@@ -9,7 +9,7 @@ const Display = () => {
             <div className='project-container'>
                 <div className=' grid customize-grid md-flex-reverse display-scale'>
                     <div className='display-details'>
-                        <div className='display-title  md-font'>
+                        <div className='display-title '>
                             <h1><span className='display-title-color'>Bear Archery</span> Brave Bow Set.</h1>
                         </div>
                         <div className='display-description'><p>
