@@ -93,8 +93,8 @@ img {
 /* display component stylesheet */
 
 .display-scale {
-    max-height: 570px;
-    overflow: hidden;
+    
+    overflow: visible;
     margin-top: 50px;
 }
 
@@ -250,5 +250,20 @@ p {
 
     .navbar a{
         display: block;
+    }
+
+    .md-flex{
+        display: flex;
+        flex-wrap: wrap-reverse;
+        
+    }
+
+    .display-scale img {
+        width: 60%;
+        border-radius: 5px;
+        padding: 20px;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+
+    
     }
 }

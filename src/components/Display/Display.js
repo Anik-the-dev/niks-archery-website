@@ -7,7 +7,7 @@ const Display = () => {
     return (
         <div className='project-body'>
             <div className='project-container'>
-                <div className=' grid customize-grid  display-scale'>
+                <div className=' grid customize-grid md-flex display-scale'>
                     <div className='display-details'>
                         <div className='display-title'>
                             <h1><span className='display-title-color'>Bear Archery</span> Brave Bow Set.</h1>
