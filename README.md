@@ -1,8 +1,8 @@
-# Project Name: Anik Archery Emporium
+# Project Name: Anik's Archery Emporium
 
 Anik's Archery Emporium - World Class Archery Shop.
 
-## Live Link:
+## Live Link: https://aniksarchery-emporium22.netlify.app/
 
 ## Procedure:
  * This project requires Raw CSS, React and Recharts.
