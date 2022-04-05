@@ -1,6 +1,16 @@
-# Project Name:
+# Project Name: Anik Archery Emporium
 
-Anik Archery Emporium
+Anik's Archery Emporium - World Class Archery Shop.
+
+## Live Link:
+
+## Procedure:
+ * This project requires Raw CSS, React and Recharts.
+ * First of all, creating some Component that needs to route when events occurs. Here I'm using React Routes for avoiding unusually Reloading.
+ * Second, Creating a navbar for both desktop and mobile version using raw css and react.
+ * Third, Creating some customHooks that loaded our review's json Data to show the reviews both Home and Review Page based on Condition. In home page, we slice the reviews Array to bring the expected result.
+ * We draw some charts using Rechatrs and have some trouble while trying to responsive for mobile version.
+ * Lastly add a blog page and a 404 page for the rest of the routes.
 
 ## Available Scripts
 

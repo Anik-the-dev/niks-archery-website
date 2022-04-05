@@ -2,7 +2,6 @@ import logo from './logo.svg';
 import './css/style.css'
 import './App.css';
 import Header from './components/Header/Header';
-import Home from './components/Home';
 import Dashboard from './components/Dashboard';
 import Blog from './components/Blog';
 import Reviews from './components/Reviews';
