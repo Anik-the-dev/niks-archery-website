@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
+/* baseLine stylesheet */
 * {
     box-sizing: border-box;
     margin: 0px;
@@ -21,12 +22,62 @@
     margin-top: 20px;
 }
 
+/* utilities */
+
 .flex {
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 100%;
 }
+
+a {
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+}
+
+img {
+    width: 80%;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    background: rgb(254, 154, 67);
+
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.btn .btn-link {
+    color: #fff;
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.customize-grid {
+    grid-template-columns: 75% 25%;
+}
+
+.two-columns-grid {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+
+/* Navbar */
 
 .navbar a {
     margin-left: 15px;
@@ -39,14 +90,7 @@
     border-bottom: 2px solid black;
 }
 
-a {
-    text-decoration: none;
-    color: rgb(32, 32, 32);
-}
-
-img {
-    width: 80%;
-}
+/* display component stylesheet */
 
 .display-scale {
     max-height: 570px;
@@ -84,44 +128,11 @@ img {
 }
 
 
-.btn {
-    display: inline-block;
-    padding: 10px 30px;
-    cursor: pointer;
-    background: rgb(254, 154, 67);
-
-    border: none;
-    border-radius: 5px;
-    margin-top: 20px;
-    font-weight: 500;
-    font-size: 1.2rem;
-}
-
-.btn .btn-link {
-    color: #fff;
-
-}
 
 
 
 
-.grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
-
-.customize-grid {
-    grid-template-columns: 75% 25%;
-}
-
-.two-columns-grid {
-    grid-template-columns: repeat(2, 1fr);
-}
-
+/* margin, padding, text,font */
 
 .text-center {
     text-align: center;
@@ -145,6 +156,10 @@ img {
 
 .my-5 {
     margin: 4rem 0;
+}
+
+.m-1{
+    margin: 10px;
 }
 
 .mb-50 {

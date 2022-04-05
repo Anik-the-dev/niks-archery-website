@@ -8,7 +8,7 @@ const Header = () => {
     const [mobileMenu, setMobileMenu] = useState(false)
     return (
         <div className='project-body'>
-            <div onClick={() => setMobileMenu(!mobileMenu)} className='hamburger-menu'>
+            <div onClick={() => setMobileMenu(!mobileMenu)} className='hamburger-menu  m-1'>
                 {mobileMenu ? <XIcon></XIcon> : <MenuIcon></MenuIcon>}
             </div>
             <div className='project-container'>
